@@ -1,0 +1,204 @@
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
+header {
+  border-bottom: 1px solid #828282;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  margin-right: 40px;
+}
+.about {
+  background: #f6f6f6;
+  padding: 100px;
+}
+.about h2 {
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.about p {
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  margin: 0 auto 50px auto;
+}
+.about p:nth-child(1) {
+  max-width: 480px;
+}
+.about p:nth-child(2) {
+  max-width: 406px;
+}
+.about p:nth-child(3) {
+  max-width: 321px;
+}
+.about p:last-child {
+  margin-bottom: 0;
+}
+.Foto h1 {
+  color: #070707;
+  font-family: Open Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 12px;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
+.Foto img {
+  margin-top: 50px;
+}
+.Skills h2 {
+  margin-top: 100px;
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Skills p {
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.title ul {
+  display: flex;
+}
+.title ul li {
+  color: #828282;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  margin-right: 187.5px;
+  margin-bottom: 60px;
+}
+
+.title div {
+  display: flex;
+  width: 170px;
+  height: 26px;
+  align-items: flex-start;
+  gap: 97px;
+  flex-shrink: 0;
+  margin-bottom: 101px;
+}
+.Portfolio {
+  background: #f6f6f6;
+  padding: 100px;
+}
+.Portfolio h2 {
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.Portfolio p {
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  width: 200px;
+  margin: 40px auto 70px auto;
+}
+.Concept p {
+  width: 260px;
+}
+.Contacts {
+  background: #fff;
+}
+.Contacts h2 {
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 100px auto 20px auto;
+}
+.Contacts p {
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 280px;
+  height: 46px;
+  margin: 20px auto 60px auto;
+}
+.Contacts img {
+  display: flex;
+  width: 180px;
+  height: 44px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  margin: 60px auto 30px auto;
+}
+.Contacts ul {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+  margin-bottom: 60px;
+  justify-content: center;
+}
+.Contacts ul li img {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+}
+.Like_me p {
+  color: #828282;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+}
