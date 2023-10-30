@@ -1,0 +1,132 @@
+.container {
+  width: 100%;
+  max-width: 793px;
+}
+.Title {
+  width: 793px;
+  height: 507px;
+  flex-shrink: 0;
+  background: #3b3f45;
+}
+header {
+  background: #4a4f56;
+  padding: 19px;
+  height: 72px;
+  margin-bottom: 20px;
+}
+.List h1 {
+  color: #ff8984;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 19px;
+}
+.List p {
+  color: #ff8984;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+main {
+  justify-content: center;
+  display: flex;
+}
+label {
+  display: flex;
+  width: 534px;
+  height: 45px;
+  flex-shrink: 0;
+}
+label h1 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 3px;
+  margin-left: 16px;
+}
+label:nth-child(1) {
+  background: #88839e;
+}
+label:nth-child(2) {
+  background: #7a7593;
+}
+label:nth-child(3) {
+  background: #88839e;
+}
+label:nth-child(4) {
+  background: #625e77;
+}
+label:nth-child(5) {
+  background: #88839e;
+}
+label:nth-child(6) {
+  background: #7a7593;
+}
+label p {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input:checked ~ h1 {
+  text-decoration: line-through;
+  color: #aeacba;
+}
+input:checked ~ p {
+  text-decoration: line-through;
+  color: #aeacba;
+}
+label:hover {
+  background: #555d69;
+  transition: all 0.1s ease-in;
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+}
+label:active {
+  background: #ff8984;
+}
+label p:before {
+  content: "(";
+}
+label p:after {
+  content: ")";
+}
+button {
+  background: #4a4f56;
+  width: 534px;
+  height: 45px;
+  flex-shrink: 0;
+  margin-top: 45px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+button h2 {
+  color: #ff8984;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 12px 0;
+}
