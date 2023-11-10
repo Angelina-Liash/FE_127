@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  width: 100%;
+  max-width: 1170px;
+  height: 590px;
+  flex-shrink: 0;
+  position: relative;
+}
+form .Create_an_Account {
+  width: 100%;
+  max-width: 570px;
+  height: 590px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: absolute;
+  padding: 25px;
+}
+form label .name {
+  display: flex;
+}
+form label .name .First_Name .Last_Name input {
+  width: 100%;
+  max-width: 245px;
+  height: 38px;
+  border: 1px solid rgb(191, 187, 187);
+  border-radius: 5px;
+}
+h1 {
+  color: #1c1c1c;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+h2 {
+  color: #545454;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  margin-bottom: 7px;
+  margin-top: 20px;
+}
+form label .email {
+  color: #545454;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  margin-top: 20px;
+}
+form label .email input {
+  width: 100%;
+  max-width: 500px;
+  height: 38px;
+  margin-bottom: 7px;
+  border: 1px solid rgb(191, 187, 187);
+  border-radius: 5px;
+}
+form label .email p {
+  color: #969696;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+}
+form label .male {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border: 1px solid rgb(191, 187, 187);
+  border-radius: 15px;
+  margin-top: 20px;
+}
+form label .male img {
+  position: absolute;
+  display: none;
+}
+form label .male input {
+  position: absolute;
+  opacity: 0;
+  z-index: 2;
+}
+form label .male input:checked + img {
+  display: block;
+}
+form label .title {
+  display: flex;
+  gap: 21px;
+}
+form label .female {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border: 1px solid rgb(191, 187, 187);
+  border-radius: 15px;
+  margin-top: 20px;
+}
+form label .female img {
+  position: absolute;
+  display: none;
+}
+form label .female input {
+  position: absolute;
+  opacity: 0;
+  z-index: 2;
+}
+form label .female input:checked + img {
+  display: block;
+}
+form label .info .city input {
+  width: 245px;
+  height: 38px;
+  border: 1px solid rgb(191, 187, 187);
+  border-radius: 5px;
+}
+form label .info {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+form label .country img {
+  position: absolute;
+  margin-left: 220px;
+}
+form label .country select {
+  position: absolute;
+  border: 1px solid rgb(191, 187, 187);
+  border-radius: 5px;
+  color: gray;
+  appearance: none;
+  width: 100%;
+  max-width: 245px;
+  height: 41px;
+}
+form label .country select:checked + img {
+  display: block;
+}
+form .button1 button {
+  width: 500px;
+  height: 38px;
+  background: #007bff;
+  color: #e4e4e4;
+  border: unset;
+  margin-bottom: 22px;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+form .text {
+  justify-content: center;
+  width: 100%;
+  max-width: 410px;
+  height: 36px;
+  margin-left: 45px;
+}
+form .text p {
+  color: #969696;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 20px;
+}
+form .text p span {
+  color: #007bff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 500px;
+  margin-top: 20px;
+  align-items: center;
+}
+.login a {
+  color: #007bff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+}
+form .Profile {
+  width: 570px;
+  height: 590px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: absolute;
+  padding: 25px;
+  margin-left: 55%;
+}
+.Profile label {
+  display: flex;
+  align-items: center;
+}
+.Profile label img {
+  margin-right: 20px;
+}
+.Profile label .select img {
+  position: absolute;
+}
+.Profile label .select select {
+  width: 138px;
+  height: 30px;
+  position: relative;
+  appearance: none;
+  border: 1px solid rgb(191, 187, 187);
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-bottom: 9px;
+}
+.Profile label .select select:checked + img {
+  display: block;
+}
+.Profile .button2 button {
+  width: 30px;
+  height: 30px;
+  border: unset;
+  border-radius: 5px;
+  margin-left: 17px;
+  border: 1px solid rgb(191, 187, 187);
+}
+.Profile .button2 button img {
+  width: 16px;
+  height: 16px;
+  justify-content: center;
+}
+.Profile .select p {
+  color: #969696;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  width: 141px;
+  height: 18px;
+  margin-left: 20px;
+}
+.name input {
+  width: 245px;
+  height: 38px;
+  margin-right: 10px;
+  border: 1px solid rgb(191, 187, 187);
+  border-radius: 5px;
+}
+.button3 button {
+  width: 150px;
+  height: 38px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  border: unset;
+  margin-top: 28px;
+}
