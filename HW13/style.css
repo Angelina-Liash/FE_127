@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&display=swap");
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+header.logo {
+  display: flex;
+  border-bottom: 1px solid #efeef3;
+}
+.logo {
+  width: 100%;
+  max-width: 157px;
+  color: #16133d;
+  font-family: Quicksand;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  gap: 12.55px;
+}
+h4 {
+  color: #7690a8;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 15px;
+  margin-top: 100px;
+}
+h1 {
+  color: #16133d;
+  font-family: Nunito Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+  margin-bottom: 40px;
+}
+:root {
+  --color-1: #d1e7ff;
+  --color-2: #d1e7ff;
+  --color-3: #e8f3ff;
+  --color-4: #b9dcff;
+  --color-5: #d1e7ff;
+  --color-6: #b9dcff;
+  --color-7: #b9dcff;
+  --color-8: #007ffc;
+}
+svg.Design:hover {
+  --color-1: #e1f4f5;
+  --color-2: #e1f4f5;
+  --color-3: #f4feff;
+  --color-4: #caeff2;
+  --color-5: #e1f4f5;
+  --color-6: #caeff2;
+  --color-7: #caeff2;
+  --color-8: #52c29d;
+}
+.title_1 .Design {
+  position: relative;
+  width: 64px;
+  height: 65px;
+  margin-bottom: 30px;
+}
+.title_1 {
+  border-radius: 8px;
+  border: 1px solid #e5eaf4;
+  background: #fff;
+  padding: 40px;
+  position: absolute;
+  height: 260px;
+}
+.title_1:hover {
+  border-color: #3db370;
+}
+.title_1 h2 {
+  color: #16133d;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.28px;
+  letter-spacing: 0.2px;
+  margin-bottom: 15px;
+  position: relative;
+}
+p {
+  color: #16133d;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 275px;
+  height: 80px;
+  position: relative;
+}
+a {
+  color: #3db370;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+:root {
+  --color-1: #d1e7ff;
+  --color-2: #b9dcff;
+  --color-3: #e8f3ff;
+  --color-4: #b9dcff;
+  --color-5: #b9dcff;
+  --color-6: white;
+  --color-7: #007ffc;
+}
+svg.Ecommerce:hover {
+  --color-1: #e1f4f5;
+  --color-2: #caeff2;
+  --color-3: #f4feff;
+  --color-4: #caeff2;
+  --color-5: #caeff2;
+  --color-6: white;
+  --color-7: #52c29d;
+}
+.title_2 .Ecommerce {
+  position: relative;
+  width: 64px;
+  height: 65px;
+  margin-bottom: 30px;
+}
+.title_2 {
+  border-radius: 8px;
+  border: 1px solid #e5eaf4;
+  background: #fff;
+  padding: 40px;
+  position: absolute;
+  height: 260px;
+  margin-left: 30%;
+}
+.title_2:hover {
+  border-color: #3db370;
+}
+.title_2 h2 {
+  color: #16133d;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.28px;
+  letter-spacing: 0.2px;
+  margin-bottom: 15px;
+  position: relative;
+}
+:root {
+  --color-1: #d1e7ff;
+  --color-2: #b9dcff;
+  --color-3: #e8f3ff;
+  --color-4: #b9dcff;
+  --color-5: #d1e7ff;
+  --color-6: #d1e7ff;
+  --color-7: #007ffc;
+}
+svg.Application:hover {
+  --color-1: #e1f4f5;
+  --color-2: #caeff2;
+  --color-3: #f4feff;
+  --color-4: #caeff2;
+  --color-5: #e1f4f5;
+  --color-6: #e1f4f5;
+  --color-7: #52c29d;
+}
+.title_3 .Application {
+  position: relative;
+  width: 64px;
+  height: 65px;
+  margin-bottom: 30px;
+}
+.title_3 {
+  border-radius: 8px;
+  border: 1px solid #e5eaf4;
+  background: #fff;
+  padding: 40px;
+  position: absolute;
+  height: 260px;
+  margin-left: 60%;
+}
+.title_3:hover {
+  border-color: #3db370;
+}
+.title_3 h2 {
+  color: #16133d;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.28px;
+  letter-spacing: 0.2px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.title {
+  gap: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40%;
+}
+footer {
+  background: #16133d;
+  height: 193px;
+  position: relative;
+}
+footer.logo {
+  display: flex;
+  position: absolute;
+}
+footer .items {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+  width: 100%;
+  max-width: 230px;
+}
