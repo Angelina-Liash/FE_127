@@ -1,0 +1,20 @@
+@media (max-width: 1200px) {
+  .user img {
+    height: 380px;
+  }
+}
+@media (max-width: 768px) {
+  main .section_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+  }
+  .user img {
+    height: 300px;
+  }
+}
+@media (max-width: 460px) {
+  .tools .items {
+    grid-template-columns: 1fr;
+  }
+}
