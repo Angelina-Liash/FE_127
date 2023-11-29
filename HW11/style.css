@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Farro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap");
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header .item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 70px;
+  position: fixed;
+}
+header nav ul {
+  display: flex;
+}
+header .item h3 {
+  text-align: center;
+  font-family: Tourney;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.88px;
+  margin-right: 50px;
+}
+header .item nav ul {
+  color: #000;
+  font-family: Staatliches;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.66px;
+  margin-right: 601px;
+}
+.title {
+  color: #000;
+  font-family: Francois One;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  width: 385px;
+  height: 462px;
+  position: sticky;
+  top: 150px;
+}
+.title ul li {
+  margin-bottom: 70px;
+  border-bottom: 2px solid #cbc7c7;
+}
+.all {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.info {
+  width: 785px;
+  position: relative;
+  top: 150px;
+}
+.info img {
+  position: absolute;
+  top: auto;
+  right: 0;
+  position: fixed;
+}
+h1 {
+  color: #000;
+  font-family: Francois One;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 40px;
+  border-top: 8px solid #000;
+}
+.section_1 h1:after {
+  content: "Chapter_1";
+  color: #000;
+  font-feature-settings: "sups" on;
+  font-family: Farro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+}
+p {
+  color: #000;
+  font-family: PT Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  margin-bottom: 70px;
+  position: relative;
+}
+.section_1 p span {
+  text-decoration-line: underline;
+}
+.section_2 h1:after {
+  content: "Chapter_2";
+  color: #000;
+  font-feature-settings: "sups" on;
+  font-family: Farro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+}
+.section_2 p span {
+  color: #000;
+  font-family: PT Sans;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 48px;
+}
+.section_3 h1:after {
+  content: "Chapter_3";
+  color: #000;
+  font-feature-settings: "sups" on;
+  font-family: Farro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+}
+.section_3 p .under {
+  text-decoration-line: underline;
+}
+.section_3 p {
+  margin-bottom: 40px;
+}
+.section_3 .text1:before {
+  content: "+ components.";
+  font-weight: bolder;
+}
+.section_3 .text2:before {
+  content: "+ JSX.";
+  font-weight: bolder;
+}
+.section_3 .text2:after {
+  content: "<Text>Hello, I am your cat!</Text>.";
+  background-color: rgb(172, 164, 164);
+}
+.section_3 .text3 .color {
+  background-color: rgb(172, 164, 164);
+}
+.section_3 .text3:after {
+  content: "<Text>";
+  background-color: rgb(172, 164, 164);
+}
+.section_3 .text4:before {
+  content: "+ props.";
+  font-weight: bolder;
+}
+.section_3 .text5:before {
+  content: "+ state.";
+  font-weight: bolder;
+}
+.section_4 h1 {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.section_4 h1:after {
+  content: "Chapter_4";
+  color: #000;
+  font-feature-settings: "sups" on;
+  font-family: Farro;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  width: 100px;
+  height: 20px;
+  position: absolute;
+}
+.section_4 p span {
+  color: #000;
+  font-family: PT Sans;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 48px;
+}
+.section_4 p {
+  margin-bottom: 40px;
+}
