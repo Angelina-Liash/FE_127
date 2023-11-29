@@ -12,6 +12,9 @@
   .user img {
     height: 300px;
   }
+  main .section_3 {
+    height: 380px;
+  }
 }
 @media (max-width: 460px) {
   .tools .items {
