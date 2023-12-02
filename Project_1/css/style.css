@@ -210,26 +210,30 @@ header .burger span {
 /*---SECTION END---*/
 main .section_3 {
   position: relative;
-  max-width: 1920px;
+  height: 100vh;
   width: 100%;
-  height: 704px;
+  box-sizing: border-box;
 }
 
-main .section_3 img {
+main .section_3 > img {
   position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 main .section_3 .all {
   display: flex;
+  gap: 136px;
+  padding: 0 15px;
+  top: 124px;
   align-items: center;
-  justify-content: center;
-  height: 704px;
 }
 
 main .section_3 .all .text {
   position: relative;
+  top: 150px;
 }
-
 h2 {
   color: #fff;
   font-family: Aleo;
@@ -249,11 +253,9 @@ p {
   font-weight: 300;
   line-height: 28px;
   letter-spacing: 1.6px;
-  width: 648px;
-  height: 168px;
 }
 
-button {
+.section_3 button {
   width: 213px;
   height: 60px;
   background: #5373fd;
@@ -266,52 +268,71 @@ button {
   line-height: 20px;
   letter-spacing: 1.12px;
   text-transform: uppercase;
+  margin-top: 32px;
 }
 
 main .section_3 .all .title {
-  max-width: 860px;
-  width: 100%;
-  height: 220px;
   position: relative;
   align-items: center;
   justify-content: center;
-  bottom: 124px;
+  top: 124px;
 }
 
 main .section_3 .all .title .Image_1 {
   width: 350px;
-  height: 220px;
-  padding: 0 0 16px 412px;
 }
 
 main .section_3 .all .title .Image_2 {
+  padding: 16px 74px;
   width: 350px;
-  height: 220px;
-  padding: 0 74px 0 487px;
 }
-
+@media (max-width: 768px) {
+  main .section_3 .all {
+    display: grid;
+    padding: 15px 15px;
+    gap: 10px;
+  }
+  main .section_3 .all .text {
+    top: 0;
+  }
+  main .section_3 .all .title .Image_2 {
+    padding: 0;
+  }
+  main .section_3 .all .title {
+    top: 0;
+  }
+  main .section_3 .all .text button {
+    margin-top: 0;
+  }
+  main .section_3 .all .text h2 {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 854px) {
+  main .section_3 .all .title .Image_2 {
+    padding: 0;
+  }
+}
 main .section_4 {
-  max-width: 1920px;
   width: 100%;
-  height: 306px;
+  height: 100%;
   background: #333;
+  padding: 0 5px;
+  box-sizing: border-box;
 }
-
 main .section_4 .line {
   stroke-width: 1px;
   stroke: #fff;
   opacity: 0.502;
-  margin-left: 505px;
   align-items: center;
+  justify-content: center;
+  display: flex;
 }
-
 main .section_4 .icon ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 378px;
 }
-
 main .section_4 .icon ul li h3 {
   color: #fff;
   text-align: center;
@@ -322,32 +343,42 @@ main .section_4 .icon ul li h3 {
   line-height: 40px;
   text-transform: capitalize;
 }
-
 main .section_4 .icon ul li img {
   width: 64px;
   height: 64px;
   margin-left: 83px;
 }
-
+@media (max-width: 768px) {
+  main .section_4 .icon ul {
+    display: grid;
+    padding: 5px 15px;
+    justify-content: center;
+  }
+  main .section_4 .line {
+    display: none;
+  }
+}
 main .section_5 {
   position: relative;
-  max-width: 1920px;
+  height: 100vh;
   width: 100%;
-  height: 684px;
+  box-sizing: border-box;
 }
 
-main .section_5 img {
+main .section_5 > img {
   position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 main .section_5 .Grand_Spain {
-  width: 648px;
-  height: 314px;
   background: rgba(35, 35, 35, 0.9);
   position: relative;
   padding: 44px 32px;
   top: 220px;
-  left: 300px;
+  left: 200px;
+  max-width: 548px;
 }
 
 main .section_5 .Grand_Spain h5 {
@@ -371,26 +402,48 @@ main .section_5 .Grand_Spain h6 {
   text-transform: uppercase;
   margin-bottom: 16px;
 }
+.section_5 button {
+  width: 213px;
+  height: 60px;
+  background: #5373fd;
+  color: #fff;
+  text-align: center;
+  font-family: Aleo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  margin-top: 32px;
+}
+@media (max-width: 768px) {
+  main .section_5 .Grand_Spain {
+    left: 0;
+  }
+}
 
 main .section_6 {
   position: relative;
-  max-width: 1920px;
+  height: 100vh;
   width: 100%;
-  height: 684px;
+  box-sizing: border-box;
 }
 
-main .section_6 img {
+main .section_6 > img {
   position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 main .section_6 .Grand_Spain {
-  width: 649px;
-  height: 314px;
   background: rgba(35, 35, 35, 0.9);
   position: relative;
   padding: 44px 32px;
+  max-width: 548px;
+  margin-left: 350px;
   top: 220px;
-  left: 971px;
 }
 
 main .section_6 .Grand_Spain h5 {
@@ -403,7 +456,21 @@ main .section_6 .Grand_Spain h5 {
   letter-spacing: 2px;
   margin-bottom: 16px;
 }
-
+.section_6 button {
+  width: 213px;
+  height: 60px;
+  background: #5373fd;
+  color: #fff;
+  text-align: center;
+  font-family: Aleo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  margin-top: 32px;
+}
 h6 {
   color: #fff;
   font-family: Josefin Sans;
@@ -414,16 +481,24 @@ h6 {
   text-transform: uppercase;
   margin-bottom: 16px;
 }
-
+@media (max-width: 768px) {
+  main .section_6 .Grand_Spain {
+    left: 0;
+    margin-left: 0;
+  }
+}
 main .section_7 {
-  max-width: 1920px;
+  height: 100vh;
   width: 100%;
-  height: 680px;
+  box-sizing: border-box;
   position: relative;
 }
 
-main .section_7 .BG img {
+main .section_7 .BG > img {
   position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 main .section_7 h2 {
@@ -439,7 +514,7 @@ main .section_7 .Sam {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 150px 0 0 0;
+  padding: 150px 15px 0 0px;
 }
 
 main .section_7 .Sam img {
@@ -448,14 +523,14 @@ main .section_7 .Sam img {
 }
 
 main .section_7 .Sam .text_1 {
-  width: 885px;
-  height: 180px;
   background: #333;
+  margin-left: 15px;
+  max-width: 885px;
+  width: 100%;
   padding: 48px 60px;
 }
 
 main .section_7 .Sam .text_1 p {
-  width: 760px;
   color: #fff;
   font-family: Josefin Sans;
   font-size: 16px;
@@ -468,6 +543,23 @@ main .section_7 .Sam .text_1 p {
 main .section_7 .Sam p img {
   width: 20px;
   height: 20px;
+}
+@media (max-width: 768px) {
+  main .section_7 .Sam {
+    display: grid;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  main .section_7 h2 {
+    top: 0;
+    padding: 15px 0;
+  }
+  main .section_7 .Sam .text_1 {
+    padding: 15px 15px;
+    margin-left: 0;
+    max-width: 410px;
+  }
 }
 
 :root {
@@ -511,9 +603,9 @@ svg.pinterest:hover {
 }
 
 footer .section_8 {
-  max-width: 1920px;
-  width: 100%;
   height: 268px;
+  width: 100%;
+  box-sizing: border-box;
   background-color: black;
 }
 
