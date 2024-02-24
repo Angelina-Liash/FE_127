@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+.Menu {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+    padding: 50px 0;
+    background-color: rgba(49, 32, 32, 0.76);
+    .menu-item {
+        img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 0 15px;
+        }
+    
+        h2 {
+            margin-top: 10px;
+            font-size: 20px;
+            font-family: SemiBold;
+            font-style: Italic;
+            font-weight: 600;
+            text-transform: uppercase;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            color: black;
+        
+        
+            &:hover {
+                color: #e79338;
+            }
+        }
+    }
+}
